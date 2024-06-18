@@ -26,7 +26,7 @@ class CreditsState extends MusicBeatState
 		#end
 
 		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('Menu_NoobDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
@@ -39,6 +39,19 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Unofficial J-Bug Mod'],
+			['',					'papopelo',			'Main Programmer, charts',										 'https://twitter.com/h8dex0xd',		 '6F418A'],
+			['Boliva',				'boliva',			'Major Help, Programmer, gave me life lol',						 'https://github.com/idevsoftware',		 'AD5858'],
+			['',					'iamnottwo',		'LUA Scripts',													 'https://gamebanana.com/members/2247310','DFFF8E'],
+			['',			'daricrahdev',			'WEEK text font',													 'https://gamebanana.com/members/2014882','FDE871'],
+			['Luciano',				'',			'productive process',															 'https://www.twitch.tv/luciano_fantasma','EB73FE'],
+			['Dante',				'',			'insistence',															 'https://www.instagram.com/china_town124/','AD5858'],
+			['J-Bug Crew' ],
+			['J-Bug',				'jbug',			'Animations, Art',													 'https://www.youtube.com/@JBUG',		 'AD5858'],
+			['Yamahearted',			'yamahearted',	'Music',															 'https://linktr.ee/Yamahearted',		 'AD5858'],
+			['Mari',				'mari',			'Background Art',													 'https://twitter.com/superiorMARI',	 'AD5858'],
+			['Eat A Lot Of Food',	'EALOF',		'Art',																							 '',		 'AD5858'],
+		//	['',				'',			'',						 '',		 'AD5858'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								 'https://ko-fi.com/shadowmario',		 '444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',							 'https://twitter.com/riverennn',		 '14967B'],

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="player.png">
+<SubTexture name="idle0000" x="0" y="325" width="137" height="157" frameX="0" frameY="-7" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0001" x="0" y="325" width="137" height="157" frameX="0" frameY="-7" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0002" x="399" y="0" width="135" height="159" frameX="-1" frameY="-5" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0003" x="399" y="0" width="135" height="159" frameX="-1" frameY="-5" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0004" x="0" y="164" width="133" height="161" frameX="-2" frameY="-3" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0005" x="0" y="164" width="133" height="161" frameX="-2" frameY="-3" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0006" x="399" y="0" width="135" height="159" frameX="-1" frameY="-5" frameWidth="137" frameHeight="164" />
+<SubTexture name="idle0007" x="399" y="0" width="135" height="159" frameX="-1" frameY="-5" frameWidth="137" frameHeight="164" />
+<SubTexture name="walk0000" x="0" y="0" width="133" height="164" frameX="-2" frameY="0" frameWidth="137" frameHeight="164" />
+<SubTexture name="walk0001" x="133" y="0" width="135" height="163" frameX="-1" frameY="-1" frameWidth="137" frameHeight="164" />
+<SubTexture name="walk0002" x="133" y="164" width="133" height="161" frameX="-2" frameY="-3" frameWidth="137" frameHeight="164" />
+<SubTexture name="walk0003" x="268" y="0" width="131" height="162" frameX="-3" frameY="-2" frameWidth="137" frameHeight="164" />
+</TextureAtlas>

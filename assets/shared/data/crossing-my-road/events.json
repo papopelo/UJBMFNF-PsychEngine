@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				7710.28037383178,
+				[
+					[
+						"Play Animation",
+						"pre-attack",
+						"BF"
+					]
+				]
+			],
+			[
+				7990.65420560748,
+				[
+					[
+						"Play Animation",
+						"attack",
+						"BF"
+					]
+				]
+			],
+			[
+				8971.96261682243,
+				[
+					[
+						"His Road lights On Animation",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				80607.476635514,
+				[
+					[
+						"Play Animation",
+						"pre-attack",
+						"BF"
+					]
+				]
+			]
+		]
+	}
+}

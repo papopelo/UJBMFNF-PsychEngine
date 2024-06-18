@@ -382,14 +382,15 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'stage': new states.stages.StageWeek1(); //Week 1
-			case 'spooky': new states.stages.Spooky(); //Week 2
-			case 'philly': new states.stages.Philly(); //Week 3
-			case 'limo': new states.stages.Limo(); //Week 4
-			case 'mall': new states.stages.Mall(); //Week 5 - Cocoa, Eggnog
-			case 'mallEvil': new states.stages.MallEvil(); //Week 5 - Winter Horrorland
-			case 'school': new states.stages.School(); //Week 6 - Senpai, Roses
-			case 'schoolEvil': new states.stages.SchoolEvil(); //Week 6 - Thorns
-			case 'tank': new states.stages.Tank(); //Week 7 - Ugh, Guns, Stress
+			//case 'spooky': new states.stages.Spooky(); //Week 2
+			//case 'philly': new states.stages.Philly(); //Week 3
+			//case 'limo': new states.stages.Limo(); //Week 4
+			//case 'mall': new states.stages.Mall(); //Week 5 - Cocoa, Eggnog
+			//case 'mallEvil': new states.stages.MallEvil(); //Week 5 - Winter Horrorland
+			//case 'school': new states.stages.School(); //Week 6 - Senpai, Roses
+			//case 'schoolEvil': new states.stages.SchoolEvil(); //Week 6 - Thorns
+			//case 'tank': new states.stages.Tank(); //Week 7 - Ugh, Guns, Stress
+			case 'HisRoad': new states.stages.HisRoad(); //Week 1
 		}
 
 		if(isPixelStage) {
@@ -2242,7 +2243,7 @@ class PlayState extends MusicBeatState
 
 		#if ACHIEVEMENTS_ALLOWED
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
-		checkForAchievement([weekNoMiss, 'ur_bad', 'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
+		checkForAchievement([weekNoMiss, 'ur_bad', 'ur_good', 'hype', 'two_keys', 'toastie']);
 		#end
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
@@ -2318,8 +2319,8 @@ class PlayState extends MusicBeatState
 				if(FlxTransitionableState.skipNextTransIn) {
 					CustomFadeTransition.nextCamera = null;
 				}
-				MusicBeatState.switchState(new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				MusicBeatState.switchState(new TitleState());
+				FlxG.sound.playMusic(Paths.music('tea-time'));
 				changedDifficulty = false;
 			}
 			transitioning = true;

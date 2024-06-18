@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"bad to the bone",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "snow",
+	"difficulties": "Normal, Alt",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Nyeh heh heh!!1!",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
